@@ -7,6 +7,7 @@
     "email": "pirxpilot@code42day.com",
     "url": "https://pirxpilot.me"
   },
+  "bin": "bin/gettext-pug",
   "repository": "pirxpilot/gettext-pug",
   "license": "MIT",
   "keywords": [
@@ -19,6 +20,8 @@
     "l10n"
   ],
   "dependencies": {
+    "async": "^2.1.4",
+    "find": "^0.2.7",
     "pug-lexer": "^3.0.0",
     "pug-parser": "^2.0.2"
   },
