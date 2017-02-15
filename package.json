@@ -20,15 +20,16 @@
     "l10n"
   ],
   "dependencies": {
-    "async": "^2.1.4",
-    "find": "^0.2.7",
-    "pug-lexer": "^3.0.0",
-    "pug-parser": "^2.0.2"
+    "async": "~2",
+    "find": "~0",
+    "mkdirp": "~0",
+    "pug-lexer": "~3",
+    "pug-parser": "~2"
   },
   "devDependencies": {
-    "jshint": "^2.9.4",
-    "mocha": "^3.2.0",
-    "should": "^11.2.0"
+    "jshint": "~2",
+    "mocha": "~3",
+    "should": "~11"
   },
   "scripts": {
     "test": "make check"
