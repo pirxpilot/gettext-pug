@@ -4,7 +4,8 @@
 
 # gettext-pug
 
-Extract gettext from jade/pug files
+Helper for applying [xgettext] to jade/pug files
+It transforms Jade/Pug templates into simplified JAvaScript that can be parsed by xgettext.
 
 ## Install
 
@@ -14,15 +15,26 @@ $ npm install --save gettext-pug
 
 ## Usage
 
+Programmatically:
+
 ```js
 var gettextPug = require('gettext-pug');
+var javascript = gettextPug(jadeOrPugTemplate);
+```
 
-gettextPug('Rainbow');
+Command line - to prep and process a directory of .jade/.pug templates:
+
+```sh
+$ gettext-pug [from-directory] [to-directory]
+$ xgettext [files-in-to-directory]
+
 ```
 
 ## License
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
+
+[xgettext]: https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html#xgettext-Invocation
 
 [npm-image]: https://img.shields.io/npm/v/gettext-pug.svg
 [npm-url]: https://npmjs.org/package/gettext-pug
