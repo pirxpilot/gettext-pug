@@ -1,6 +1,6 @@
 {
   "name": "gettext-pug",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Extract gettext from jade/pug files",
   "author": {
     "name": "Damian Krzeminski",
