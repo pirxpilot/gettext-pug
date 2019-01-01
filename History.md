@@ -1,4 +1,11 @@
 
+1.0.0 / 2019-01-01
+==================
+
+ * upgrade pug-lexer and pug-parser
+ * upgrade mocha and should
+ * rewrite in ES6
+
 0.2.0 / 2017-02-15
 ==================
 
