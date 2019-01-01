@@ -1,6 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Dependency Status][deps-image]][deps-url]
+[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # gettext-pug
 
@@ -42,5 +43,8 @@ MIT © [Damian Krzeminski](https://pirxpilot.me)
 [travis-url]: https://travis-ci.org/pirxpilot/gettext-pug
 [travis-image]: https://img.shields.io/travis/pirxpilot/gettext-pug.svg
 
-[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/gettext-pug.svg
-[gemnasium-url]: https://gemnasium.com/pirxpilot/gettext-pug
+[deps-image]: https://img.shields.io/david/pirxpilot/gettext-pug.svg
+[deps-url]: https://david-dm.org/pirxpilot/gettext-pug
+
+[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/gettext-pug.svg
+[deps-dev-url]: https://david-dm.org/pirxpilot/gettext-pug?type=dev
