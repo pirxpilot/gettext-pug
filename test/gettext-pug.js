@@ -19,4 +19,12 @@ describe('gettext-pug', function () {
     const ref = read('second_attribute.js');
     result.should.eql(ref);
   });
+
+  it('should convert ES6 string templates', function () {
+    const str = read('str-template.jade');
+    const result = gettextPug(str);
+    const ref = read('str-template.js');
+    result.should.eql(ref);
+  });
+
 });
