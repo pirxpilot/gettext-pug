@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "jshint": "~2",
-    "mocha": "~3",
-    "should": "~11"
+    "mocha": "~5",
+    "should": "~13"
   },
   "scripts": {
     "test": "make check"
