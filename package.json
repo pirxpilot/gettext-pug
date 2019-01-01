@@ -22,7 +22,6 @@
   "dependencies": {
     "async": "~2",
     "find": "~0",
-    "mkdirp": "~0",
     "pug-lexer": "~3",
     "pug-parser": "~2"
   },
