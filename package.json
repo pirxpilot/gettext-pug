@@ -22,8 +22,8 @@
   "dependencies": {
     "async": "~2",
     "find": "~0",
-    "pug-lexer": "~3",
-    "pug-parser": "~2"
+    "pug-lexer": "~4",
+    "pug-parser": "~5"
   },
   "devDependencies": {
     "jshint": "~2",
