@@ -1,23 +1,22 @@
-var fs = require('fs');
-var gettextPug = require('../');
-
+const fs = require('fs');
+const gettextPug = require('../');
 
 function read(name) {
-  return fs.readFileSync(__dirname + '/fixtures/' + name, 'utf8');
+  return fs.readFileSync(`${__dirname}/fixtures/${name}`, 'utf8');
 }
 
 describe('gettext-pug', function () {
   it('should convert jade file', function () {
-    var str = read('example.jade');
-    var result = gettextPug(str);
-    var ref = read('example.js');
+    const str = read('example.jade');
+    const result = gettextPug(str);
+    const ref = read('example.js');
     result.should.eql(ref);
   });
 
   it('should convert jade with attributes', function () {
-    var str = read('second_attribute.jade');
-    var result = gettextPug(str);
-    var ref = read('second_attribute.js');
+    const str = read('second_attribute.jade');
+    const result = gettextPug(str);
+    const ref = read('second_attribute.js');
     result.should.eql(ref);
   });
 });
