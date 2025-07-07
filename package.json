@@ -7,8 +7,13 @@
     "email": "pirxpilot@code42day.com",
     "url": "https://pirxpilot.me"
   },
-  "bin": "bin/gettext-pug",
-  "repository": "pirxpilot/gettext-pug",
+  "bin": {
+    "gettext-pug": "bin/gettext-pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirxpilot/gettext-pug.git"
+  },
   "license": "MIT",
   "keywords": [
     "gettext-pug",
