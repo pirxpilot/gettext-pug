@@ -1,7 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status][build-image]][build-url]
 [![Dependency Status][deps-image]][deps-url]
-[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # gettext-pug
 
@@ -37,14 +36,12 @@ MIT © [Damian Krzeminski](https://pirxpilot.me)
 
 [xgettext]: https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html#xgettext-Invocation
 
-[npm-image]: https://img.shields.io/npm/v/gettext-pug.svg
+[npm-image]: https://img.shields.io/npm/v/gettext-pug
 [npm-url]: https://npmjs.org/package/gettext-pug
 
-[travis-url]: https://travis-ci.org/pirxpilot/gettext-pug
-[travis-image]: https://img.shields.io/travis/pirxpilot/gettext-pug.svg
+[build-url]: https://github.com/pirxpilot/gettext-pug/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/gettext-pug/check.yaml?branch=main
 
-[deps-image]: https://img.shields.io/david/pirxpilot/gettext-pug.svg
-[deps-url]: https://david-dm.org/pirxpilot/gettext-pug
+[deps-image]: https://img.shields.io/librariesio/release/npm/gettext-pug
+[deps-url]: https://libraries.io/npm/gettext-pug
 
-[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/gettext-pug.svg
-[deps-dev-url]: https://david-dm.org/pirxpilot/gettext-pug?type=dev
