@@ -26,9 +26,7 @@
     "pug-parser": "~5"
   },
   "devDependencies": {
-    "jshint": "~2",
-    "mocha": "~5",
-    "should": "~13"
+    "@biomejs/biome": "2.0.6"
   },
   "scripts": {
     "test": "make check"
