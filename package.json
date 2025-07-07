@@ -25,10 +25,8 @@
     "l10n"
   ],
   "dependencies": {
-    "async": "~2",
-    "find": "~0",
-    "pug-lexer": "~4",
-    "pug-parser": "~5"
+    "pug-lexer": "~5",
+    "pug-parser": "~6"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6"

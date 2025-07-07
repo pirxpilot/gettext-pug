@@ -4,17 +4,14 @@ const filterAndCopy = require('../lib/filter-copy');
 const tmpdir = require('node:os').tmpdir();
 
 describe('filter-copy', () => {
-  it('filter and copy jade files', (_, done) => {
+  it('filter and copy jade files', async () => {
     const from = `${__dirname}/fixtures`;
     const to = `${tmpdir}/fixtures`;
 
-    function filter(str, fn) {
-      const result = `TEST\n${str.slice(0, 100)}\n`;
-      process.nextTick(() => {
-        fn(null, result);
-      });
+    function filter(str) {
+      return `TEST\n${str.slice(0, 100)}\n`;
     }
 
-    filterAndCopy(from, to, /\.(pug|jade)$/, filter, done);
+    await filterAndCopy(from, to, /\.(pug|jade)$/, filter);
   });
 });
