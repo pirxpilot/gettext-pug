@@ -1,4 +1,12 @@
 
+1.1.0 / 2025-07-07
+==================
+
+ * upgrade dependencies
+ * reimplement using promise based API
+ * replace Travis CI with github actions
+ * use `biome` as a linter and formatter
+
 1.0.0 / 2019-01-01
 ==================
 
